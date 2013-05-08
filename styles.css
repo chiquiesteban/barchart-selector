@@ -1,0 +1,26 @@
+/*GENERAL*/
+#container { width:100%; font-family:Georgia, "Times New Roman", Times, serif; line-height:1.4em;}
+#container .chapter { width:100%; display:inline; float:left; margin-bottom:1em;}
+#container .estirar:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#container .estirar{display:inline-block}
+#container .estirar{display:block}
+* html .estirar{height:1px}
+
+/*SELECTOR*/
+#container .complete-sel {display: inline; float: left; margin-right:1%; width:22%; margin-bottom:0.5em;  padding-bottom:0.5em;}
+#container .head-sel {display: inline; float: left; font-family: Helvetica,Arial,sans-serif; font-size:0.9em; margin-right:1em;}
+#container .control-item {display: inline; float: left;  }
+#container select { width:100%;}
+
+/*BARCHART*/
+#container .row { padding:0.2em 0 0.5em 0; border-bottom:dotted 1px #EEE;}
+#container .row:hover {font-weight:bold;}
+#container .highlight { font-weight:bold;}
+#container .bartext { text-align:right; width:15%; margin-right:2%; display:inline; float:left;}
+#container .barchart { height:15px; display:inline; float:left; margin-right:2%; height:20px; background:#CCC;}
+#container .highlight .barchart  { background:#900;}
+#container .value { width:5%; display:inline; float:left; text-align:left;}
+
+@media only screen and (max-width: 800px) {
+  #container .bartext { text-align:left; width:100%; margin-right:0%; margin-bottom:0.3em}
+}
